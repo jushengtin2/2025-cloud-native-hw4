@@ -10,12 +10,13 @@
 
 ```bash
 docker build -t cloud-hw4-app .
-
+```
 ---
 
-##  執行 Docker Container
+## 執行 Docker Container
 
-建置完成後，請使用以下指令啟動 container，將容器內部的 5000 port 映射到本機的 5000 port：
+建置完成後，請使用以下指令啟動 container：
 
 ```bash
 docker run -p 5000:5000 cloud-hw4-app
+```
