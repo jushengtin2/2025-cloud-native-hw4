@@ -7,7 +7,7 @@ WORKDIR /app
 
 COPY . .
 
-# 故意打錯
+#故意打錯
 RUN flask install pip
 
 
